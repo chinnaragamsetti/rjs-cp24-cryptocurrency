@@ -1,0 +1,112 @@
+/* Write your CSS code here */
+/* Write your CSS code here */
+@media screen and (max-width: 767px) {
+  .subcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+  }
+  .heading {
+    font-size: 20px;
+    color: #00e7ff;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  .listscontainer {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 100%;
+    border: 3px solid #00e7ff;
+    padding-left: 0px;
+  }
+  .list {
+    display: flex;
+    justify-content: space-between;
+    background-color: #092e33;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .type {
+    display: flex;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+    align-self: flex-start;
+    width: 50%;
+    padding-left: 30px;
+  }
+  .curr {
+    display: flex;
+    align-self: flex-end;
+    width: 50%;
+    justify-content: space-around;
+  }
+  .currhead {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 768px) {
+  .subcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+  }
+  .heading {
+    font-size: 20px;
+    color: #00e7ff;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  .listscontainer {
+    border: 3px solid #00e7ff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 100%;
+    padding-left: 0px;
+  }
+  .list {
+    display: flex;
+
+    background-color: #092e33;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .type {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 70%;
+    border: 1px solid red;
+    padding-left: 30px;
+  }
+  .curr {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    border: 1px solid red;
+  }
+  .currhead {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 40px;
+  }
+}
