@@ -20,11 +20,3 @@ const CryptocurrencyItem = props => {
   )
 }
 export default CryptocurrencyItem
-/* 
-<div className="typecontainer">
-        <div className="imagecontainer">
-          <img src={currencyLogo} alt="currency_logo" className="image" />
-        </div>
-        <p className="cointype">{currencyName}</p>
-      </div>
-      */

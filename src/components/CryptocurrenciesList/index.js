@@ -18,8 +18,7 @@ class CryptocurrenciesList extends Component {
     const response = await fetch(
       'https://apis.ccbp.in/crypto-currency-converter',
     )
-    const statusCode = await response.statusCode
-    console.log(statusCode)
+
     const data = await response.json()
 
     const formattedData = data.map(eachItem => ({
@@ -43,7 +42,7 @@ class CryptocurrenciesList extends Component {
         data-testid="loader"
       />
     ) : (
-      <div className="subcontainer">
+      <div className="subcontainer" data-testid="loader">
         <h1 className="heading">Cryptocurrency Tracker</h1>
         <img
           src="https://assets.ccbp.in/frontend/react-js/cryptocurrency-bg.png"

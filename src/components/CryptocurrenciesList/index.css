@@ -94,14 +94,12 @@
     font-weight: bold;
     color: #ffffff;
     width: 70%;
-    border: 1px solid red;
     padding-left: 30px;
   }
   .curr {
     display: flex;
     justify-content: space-evenly;
     width: 40%;
-    border: 1px solid red;
   }
   .currhead {
     font-size: 15px;
