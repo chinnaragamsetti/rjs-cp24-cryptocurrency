@@ -15,12 +15,8 @@ class CryptocurrenciesList extends Component {
   }
 
   cryptoData = async () => {
-     const options = {
-      method: 'GET',
-    }
     const response = await fetch(
       'https://apis.ccbp.in/crypto-currency-converter',
-      options,
     )
 
     const data = await response.json()
@@ -38,13 +34,9 @@ class CryptocurrenciesList extends Component {
   render() {
     const {listdata, isLoading} = this.state
     return isLoading ? (
-      <Loader
-        type="TailSpin"
-        color="#00BFFF"
-        height={50}
-        width={50}
-        data-testid="loader"
-      />
+      <div data-testid="loader">
+        <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
+      </div>
     ) : (
       <div className="subcontainer" data-testid="loader">
         <h1 className="heading">Cryptocurrency Tracker</h1>
