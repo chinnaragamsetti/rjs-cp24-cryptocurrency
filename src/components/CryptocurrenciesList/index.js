@@ -15,8 +15,15 @@ class CryptocurrenciesList extends Component {
   }
 
   cryptoData = async () => {
+<<<<<<< HEAD
     const response = await fetch(
       'https://apis.ccbp.in/crypto-currency-converter',
+=======
+    
+    const response = await fetch(
+      'https://apis.ccbp.in/crypto-currency-converter',
+      
+>>>>>>> ac3f670c7372c21d6c64b19ab8e0531a05e9b2c3
     )
 
     const data = await response.json()
