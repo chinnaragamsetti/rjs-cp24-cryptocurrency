@@ -45,7 +45,7 @@ class CryptocurrenciesList extends Component {
         <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
       </div>
     ) : (
-      <div className="subcontainer" data-testid="loader">
+      <div className="subcontainer">
         <h1 className="heading">Cryptocurrency Tracker</h1>
         <img
           src="https://assets.ccbp.in/frontend/react-js/cryptocurrency-bg.png"

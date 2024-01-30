@@ -8,7 +8,7 @@ const CryptocurrencyItem = props => {
     <li className="eachlist">
       <div className="textandimagecontainer">
         <div className="imagecontainer">
-          <img src={currencyLogo} alt="currencyName" className="image" />
+          <img src={currencyLogo} alt={currencyName} className="image" />
         </div>
         <p className="cointype">{currencyName}</p>
       </div>
